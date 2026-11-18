@@ -16,7 +16,7 @@ def health():
 
 @app.route("/soma/<int:a>/<int:b>")
 def soma(a, b):
-    return jsonify(resultado=a + b)
+        return jsonify(resultado=a - b)
 
 
 if __name__ == "__main__":
